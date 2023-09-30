@@ -1,6 +1,6 @@
 package com.hireme.communication.repository.impl;
 
-import com.hireme.assignment.repository.Repository;
+import com.hireme.communication.repository.Repository;
 
 public class RepositoryImpl implements Repository {
 }
