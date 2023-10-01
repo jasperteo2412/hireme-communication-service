@@ -1,4 +1,4 @@
 package com.hireme.communication.service;
 
-public interface Service {
+public interface CommunicationService {
 }

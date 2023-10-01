@@ -1,10 +1,12 @@
 package com.hireme.communication.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class ResponseBodyDTO {
 
     private int status;
