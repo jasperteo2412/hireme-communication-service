@@ -10,7 +10,7 @@ import lombok.*;
 public class ResponseBodyDTO {
 
     private int status;
-    private Object[] data;
+    private Object data;
     private ErrorDTO error;
 
 }

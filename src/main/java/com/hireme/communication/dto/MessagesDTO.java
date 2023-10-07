@@ -11,8 +11,10 @@ import java.util.Date;
 @ToString
 public class MessagesDTO {
 
-    private int messageId;
+    private int communicationId;
     private String messageBody;
+    private String sentFrom;
+    private String sentTo;
     private Date sentDateTime;
     private String readIndicator;
 
