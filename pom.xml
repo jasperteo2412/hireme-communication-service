@@ -96,4 +96,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github Packages</name>
+			<url>https://maven.pkg.github.com/jasperteo2412/hireme-communication-service</url>
+		</repository>
+	</distributionManagement>
+
 </project>
