@@ -4,6 +4,16 @@
 name: Maven Package
 
 on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - '.github/workflows/maven-publish.yml'
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - '.github/workflows/maven-publish.yml'
   release:
     types: [created]
 
